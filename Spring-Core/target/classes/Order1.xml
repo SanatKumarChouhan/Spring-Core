@@ -16,7 +16,7 @@
 	<bean name="inventory" class="in.co.rays.ioc.Inventory"></bean>
 	<bean name="payment" class="in.co.rays.ioc.Payment"></bean>
 
-	<bean name="order1" class="in.co.rays.ioc">
+	<bean name="order1" class="in.co.rays.ioc.Order1">
 		<property name="payment" ref="payment"></property>
 		<property name="inventory" ref="inventory"></property>
 	</bean>
