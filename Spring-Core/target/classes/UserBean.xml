@@ -11,15 +11,20 @@
     http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
 	<!-- for using setter methods  -->
-	<!-- <bean name="user" class="in.co.rays.bean.UserBean">
-		<property name="userId" value="sunilos"></property>
-		<property name="password" value="sunrays"></property>
+	<bean name="user" class="in.co.rays.bean.UserBean">
+		<property name="userId" value="id_sunilos"></property>
+		<property name="password" value="pass_sunrays"></property>
+	</bean>
+	
+	<!-- <bean name="user1" class="in.co.rays.bean.UserBean">
+		<property name="userId" value="id1_sunilos"></property>
+		<property name="password" value="pass1_sunrays"></property>
 	</bean> -->
 
 	<!-- for using constructor methods -->
 	
-	<bean name="user" class="in.co.rays.bean.UserBean">
-		<constructor-arg value="sanatOs"></constructor-arg>
-		<constructor-arg value="sanatRays"></constructor-arg>
+	<bean name="user1" class="in.co.rays.bean.UserBean">
+		<constructor-arg value="id_sanatOs"></constructor-arg>
+		<constructor-arg value="pass_sanatRays123"></constructor-arg>
 	</bean>
 </beans>
