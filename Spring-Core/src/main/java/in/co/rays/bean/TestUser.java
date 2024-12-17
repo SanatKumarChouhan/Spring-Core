@@ -8,6 +8,15 @@ import org.springframework.core.io.ClassPathResource;
 
 public class TestUser {
 
+	/**
+	 * this the core spring workspace and pakckage name is in.co.rays.bean; and
+	 * class name is TestUser.java
+	 * 
+	 * @param args
+	 */
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 //		BeanFactory factory = new XmlBeanFactory(new ClassPathResource("UserBean.xml"));
